@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: timetricks
+Formal-Name: Time Tricks
+App-ID: dev.thunstrom.timetricks
+Version: 0.0.1
+Home-page: https://piper.thunstrom.dev
+Author: Piper Thunstrom
+Author-email: pathunstrom@gmail.com
+Summary: A ppb game exploring time manipulation mechanics.

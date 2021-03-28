@@ -1,0 +1,35 @@
+[tool.briefcase]
+project_name = "Time Tricks"
+bundle = "dev.thunstrom"
+version = "0.0.1"
+url = "https://piper.thunstrom.dev"
+license = "Other"
+author = 'Piper Thunstrom'
+author_email = "pathunstrom@gmail.com"
+
+[tool.briefcase.app.timetricks]
+formal_name = "Time Tricks"
+description = "A ppb game exploring time manipulation mechanics."
+icon = "src/timetricks/resources/timetricks"
+sources = ['src/timetricks']
+requires = [
+    'ppb~=0.12.0',
+]
+
+
+[tool.briefcase.app.timetricks.macOS]
+requires = []
+
+[tool.briefcase.app.timetricks.linux]
+requires = []
+system_requires = []
+
+[tool.briefcase.app.timetricks.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.timetricks.iOS]
+requires = []
+
+[tool.briefcase.app.timetricks.android]
+requires = []
